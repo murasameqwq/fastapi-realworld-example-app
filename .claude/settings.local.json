@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude --version)",
+      "Bash(chmod +x *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Add experiment scripts and CLAUDE.md *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git commit *)",
+      "Bash(mkdir -p /home/murasame/research/fastapi-realworld-example-app/.claude/skills)",
+      "Bash(cp -r /home/murasame/research/code2pspspec/skills/* /home/murasame/research/fastapi-realworld-example-app/.claude/skills/)",
+      "Bash(bash *)"
+    ]
+  }
+}
