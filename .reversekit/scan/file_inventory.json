@@ -1,0 +1,214 @@
+{
+  "scan_date": "2026-04-29",
+  "total_files_scanned": 194,
+  "source_files": 73,
+  "test_files": 23,
+  "total_source_lines": 2567,
+  "total_test_lines": 1395,
+  "languages": {
+    "Python": {
+      "files": 73,
+      "lines": 2567
+    }
+  },
+  "modules": [
+    {
+      "name": "Repositories",
+      "path": "app/db/repositories",
+      "language": "Python",
+      "type": "data",
+      "priority": "important",
+      "priority_score": 70,
+      "priority_reasoning": "data type (40) + size (30) lines",
+      "file_count": 7,
+      "total_lines": 611
+    },
+    {
+      "name": "Query Definitions",
+      "path": "app/db/queries",
+      "language": "Python",
+      "type": "data",
+      "priority": "important",
+      "priority_score": 60,
+      "priority_reasoning": "data type (40) + size (20) lines",
+      "file_count": 4,
+      "total_lines": 201
+    },
+    {
+      "name": "Settings",
+      "path": "app/core/settings",
+      "language": "Python",
+      "type": "core",
+      "priority": "important",
+      "priority_score": 60,
+      "priority_reasoning": "core type (50) + size (10) lines",
+      "file_count": 6,
+      "total_lines": 112
+    },
+    {
+      "name": "Article Routes",
+      "path": "app/api/routes/articles",
+      "language": "Python",
+      "type": "api",
+      "priority": "important",
+      "priority_score": 50,
+      "priority_reasoning": "api type (30) + size (20) lines",
+      "file_count": 4,
+      "total_lines": 232
+    },
+    {
+      "name": "Schema Models",
+      "path": "app/models/schemas",
+      "language": "Python",
+      "type": "data",
+      "priority": "important",
+      "priority_score": 50,
+      "priority_reasoning": "data type (40) + size (10) lines",
+      "file_count": 8,
+      "total_lines": 122
+    },
+    {
+      "name": "Domain Models",
+      "path": "app/models/domain",
+      "language": "Python",
+      "type": "data",
+      "priority": "minor",
+      "priority_score": 40,
+      "priority_reasoning": "data type (40) + size (0) lines",
+      "file_count": 6,
+      "total_lines": 79
+    },
+    {
+      "name": "Migrations",
+      "path": "app/db/migrations",
+      "language": "Python",
+      "type": "data",
+      "priority": "minor",
+      "priority_score": 40,
+      "priority_reasoning": "data type (40) + size (0) lines",
+      "file_count": 1,
+      "total_lines": 38
+    },
+    {
+      "name": "Services",
+      "path": "app/services",
+      "language": "Python",
+      "type": "utility",
+      "priority": "minor",
+      "priority_score": 35,
+      "priority_reasoning": "utility type (10) + size (10) lines",
+      "file_count": 6,
+      "total_lines": 106
+    },
+    {
+      "name": "API Routes",
+      "path": "app/api/routes",
+      "language": "Python",
+      "type": "utility",
+      "priority": "minor",
+      "priority_score": 30,
+      "priority_reasoning": "utility type (10) + size (20) lines",
+      "file_count": 7,
+      "total_lines": 352
+    },
+    {
+      "name": "API Dependencies",
+      "path": "app/api/dependencies",
+      "language": "Python",
+      "type": "utility",
+      "priority": "minor",
+      "priority_score": 30,
+      "priority_reasoning": "utility type (10) + size (20) lines",
+      "file_count": 6,
+      "total_lines": 276
+    },
+    {
+      "name": "Migration Scripts",
+      "path": "app/db/migrations/versions",
+      "language": "Python",
+      "type": "utility",
+      "priority": "minor",
+      "priority_score": 30,
+      "priority_reasoning": "utility type (10) + size (20) lines",
+      "file_count": 1,
+      "total_lines": 216
+    },
+    {
+      "name": "Core Configuration",
+      "path": "app/core",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 4,
+      "total_lines": 71
+    },
+    {
+      "name": "Application Entry",
+      "path": "app",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 2,
+      "total_lines": 45
+    },
+    {
+      "name": "Error Handlers",
+      "path": "app/api/errors",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 3,
+      "total_lines": 35
+    },
+    {
+      "name": "Database Events",
+      "path": "app/db",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 3,
+      "total_lines": 27
+    },
+    {
+      "name": "Resource Strings",
+      "path": "app/resources",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 2,
+      "total_lines": 25
+    },
+    {
+      "name": "Model Commons",
+      "path": "app/models",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 2,
+      "total_lines": 19
+    },
+    {
+      "name": "Api",
+      "path": "app/api",
+      "language": "Python",
+      "type": "utility",
+      "priority": "skip",
+      "priority_score": 10,
+      "priority_reasoning": "utility type (10) + size (0) lines",
+      "file_count": 1,
+      "total_lines": 0
+    }
+  ]
+}
